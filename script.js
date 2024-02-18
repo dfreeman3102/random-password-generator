@@ -3,6 +3,33 @@ var generateBtn = document.querySelector("#generate");
 
 // this function generates the password based on parameters
 function generatePassword(length, numbers, specialChar, upper, lower) {
+
+// these prompts and variables give the funcion the parameter answers
+var length = prompt("How many characters between 8-128?", "8");
+console.log(length);
+
+var numbers = confirm("Include numbers?");
+console.log(numbers);
+
+var specialChar = confirm("Include special characters?");
+console.log(specialChar);
+
+var upper = confirm("Include uppercase?");
+console.log(upper);
+
+var lower = confirm("Include lowercase?");
+console.log(lower);
+
+var passwordLength = length;
+
+var includeNumbers = numbers;
+
+var includeSpecial = specialChar;
+
+var includeUpper = upper;
+
+var includeLower = lower;
+
   // these variables give all the possible options for characters
   var lowerChars = "abcdefghijklmnopqrstuvwxyz";
   var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -31,31 +58,6 @@ function generatePassword(length, numbers, specialChar, upper, lower) {
   }
   return password;
 }
-// these prompts and variables give the funcion the parameter answers
-var length = prompt("How many characters between 8-128?", "8");
-console.log(length);
-
-var numbers = confirm("Include numbers?");
-console.log(numbers);
-
-var specialChar = confirm("Include special characters?");
-console.log(specialChar);
-
-var upper = confirm("Include uppercase?");
-console.log(upper);
-
-var lower = confirm("Include lowercase?");
-console.log(lower);
-
-var passwordLength = length;
-
-var includeNumbers = numbers;
-
-var includeSpecial = specialChar;
-
-var includeUpper = upper;
-
-var includeLower = lower;
 
 
 // Write password to the #password input
