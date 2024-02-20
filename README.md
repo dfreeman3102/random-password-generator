@@ -4,6 +4,7 @@ Third bootcamp challenge, using what we learned in class and outside research to
 Outside research included the usage of different Youtube Tutorials to help me understand the way prompt() works https://www.youtube.com/watch?v=ZmRYan3lAIo, and also some assistance on how to get my function working properly and fully understand how it works the way it does by https://www.youtube.com/watch?v=1cdXwYEFDAg&t=5s. 
 
 Here is a screenshot of the finished project.
+<<<<<<< HEAD
 ![alt text](<assets/images/Random Password Generator.png>)
 
 Here is a link to the finished project.
